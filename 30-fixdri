@@ -1,0 +1,4 @@
+#! /bin/sh
+
+echo "Fixing /dev/dri/ permissions."
+chmod -R 777 /dev/dri/

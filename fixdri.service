@@ -1,0 +1,8 @@
+[Unit]
+Description=Fix /dev/dri permissions
+
+[Service]
+ExecStart=/usr/local/bin/fixdri
+
+[Install]
+WantedBy=default.target
