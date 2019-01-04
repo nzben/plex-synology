@@ -10,7 +10,7 @@ This repo fixes that problem by doing a nasty `chmod 777` to `/dev/dri` every ti
 
 # HowTo
 
-1. Grab the `plex-synology` image from [Docker Hub](https://hub.docker.com/r/nzben/plex-synology), and create a Docker container on your Synology. Configure the Advanced Settings as desired (Consult the [official pms-docker README](https://github.com/plexinc/pms-docker/blob/master/README.md) for more information.)
+1. Grab the `plex-synology` image from [Docker Hub](https://hub.docker.com/r/nzben/plex-synology), and create a Docker container on your Synology. Configure the Advanced Settings as desired (Consult the [official pms-docker README](https://github.com/plexinc/pms-docker/blob/master/README.md) for more information).
 1. Export the container settings (Select **`<your container>`** > **Settings** > **Export** > **Container settings**)
 1. Replace this line
     ```json
